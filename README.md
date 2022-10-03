@@ -24,7 +24,7 @@ This is an example of using run_hans_mnli.py in Google Colab:
         --max_seq_length 128 \
         --output_dir mnli-6
 ```
-* Note that the mnli-6 model is fine-tuned on MNLI; use run_hans_snli.py if your model is fine-tuned on SNLI.
+* Note that the mnli-6 model is fine-tuned on MNLI; so, use run_hans_snli.py if your model is fine-tuned on SNLI.
 
 This will create the hans_predictions.txt file in ./mnli-6, which can then be evaluated using evaluate_heur_output.py from the HANS dataset.
 
