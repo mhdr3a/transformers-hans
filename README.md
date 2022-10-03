@@ -140,3 +140,110 @@ temp62: 1.0
 temp68: 1.0
 ```
 
+And here are the evaluation results for the [snli-6 model](https://huggingface.co/mahdiyar/snli-6):
+
+```bash
+Heuristic entailed results:
+lexical_overlap: 0.9778
+subsequence: 0.9696
+constituent: 0.9658
+
+Heuristic non-entailed results:
+lexical_overlap: 0.6202
+subsequence: 0.1618
+constituent: 0.1974
+
+Subcase results:
+ln_subject/object_swap: 0.929
+ln_preposition: 0.796
+ln_relative_clause: 0.717
+ln_passive: 0.038
+ln_conjunction: 0.621
+le_relative_clause: 0.981
+le_around_prepositional_phrase: 1.0
+le_around_relative_clause: 0.993
+le_conjunction: 0.924
+le_passive: 0.991
+sn_NP/S: 0.001
+sn_PP_on_subject: 0.411
+sn_relative_clause_on_subject: 0.227
+sn_past_participle: 0.042
+sn_NP/Z: 0.128
+se_conjunction: 0.98
+se_adjective: 0.999
+se_understood_object: 0.869
+se_relative_clause_on_obj: 1.0
+se_PP_on_obj: 1.0
+cn_embedded_under_if: 0.573
+cn_after_if_clause: 0.023
+cn_embedded_under_verb: 0.156
+cn_disjunction: 0.039
+cn_adverb: 0.196
+ce_embedded_under_since: 0.873
+ce_after_since_clause: 0.984
+ce_embedded_under_verb: 0.99
+ce_conjunction: 0.982
+ce_adverb: 1.0
+
+Template results:
+temp1: 0.929
+temp5: 0.910828025477707
+temp7: 0.9329896907216495
+temp3: 0.7976878612716763
+temp2: 0.7062146892655368
+temp4: 0.7763157894736842
+temp6: 0.6190476190476191
+temp11: 0.75
+temp9: 0.6831683168316832
+temp15: 0.42
+temp16: 0.975
+temp10: 0.7682926829268293
+temp8: 0.43478260869565216
+temp18: 0.8913043478260869
+temp12: 0.7654320987654321
+temp14: 0.7037037037037037
+temp19: 0.7674418604651163
+temp13: 0.5921052631578947
+temp17: 0.8823529411764706
+temp21: 0.03838383838383838
+temp20: 0.03762376237623762
+temp22: 0.2796610169491525
+temp25: 0.8421052631578947
+temp24: 0.7972508591065293
+temp23: 0.5346938775510204
+temp28: 0.9921875
+temp26: 0.9774436090225563
+temp29: 0.9565217391304348
+temp27: 1.0
+temp30: 1.0
+temp31: 0.993
+temp32: 1.0
+temp33: 0.8503937007874016
+temp36: 0.9918367346938776
+temp35: 0.9901960784313726
+temp37: 0.001
+temp38: 0.411
+temp39: 0.227
+temp40: 0.020168067226890758
+temp41: 0.07407407407407407
+temp42: 0.09411764705882353
+temp43: 0.32
+temp44: 0.9675850891410048
+temp45: 1.0
+temp46: 0.999
+temp47: 0.869
+temp48: 1.0
+temp49: 1.0
+temp50: 0.573
+temp51: 0.023
+temp52: 0.156
+temp53: 0.044585987261146494
+temp54: 0.034026465028355386
+temp58: 0.196
+temp59: 0.873
+temp60: 0.984
+temp61: 0.99
+temp63: 0.9942307692307693
+temp62: 0.96875
+temp68: 1.0
+```
