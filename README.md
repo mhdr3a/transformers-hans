@@ -1,6 +1,6 @@
 ## Adversarial evaluation of model performances [Updated]
 
-Here is an example on evaluating a model (either fine-tuned on MNLI or SNLI) using adversarial evaluation of natural language inference with the Heuristic Analysis for NLI Systems (HANS) dataset [McCoy et al., 2019](https://arxiv.org/abs/1902.01007).
+Here is an example of evaluating a model (fine-tuned either on MNLI or SNLI) using adversarial evaluation of natural language inference with the Heuristic Analysis for NLI Systems (HANS) dataset [McCoy et al., 2019](https://arxiv.org/abs/1902.01007).
 
 The HANS dataset can be downloaded from [this location](https://github.com/tommccoy1/hans).
 
