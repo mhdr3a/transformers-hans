@@ -1,6 +1,6 @@
 ## Adversarial evaluation of model performances [Updated]
 
-Here is an example on evaluating a model using adversarial evaluation of natural language inference with the Heuristic Analysis for NLI Systems (HANS) dataset [McCoy et al., 2019](https://arxiv.org/abs/1902.01007).
+Here is an example on evaluating a model (either fine-tuned on MNLI or SNLI) using adversarial evaluation of natural language inference with the Heuristic Analysis for NLI Systems (HANS) dataset [McCoy et al., 2019](https://arxiv.org/abs/1902.01007).
 
 The HANS dataset can be downloaded from [this location](https://github.com/tommccoy1/hans).
 
@@ -24,6 +24,7 @@ This is an example of using run_hans_mnli.py in Google Colab:
         --max_seq_length 128 \
         --output_dir mnli-6
 ```
+* Note that the mnli-6 model is fine-tuned on MNLI; use run_hans_snli.py if your model is fine-tuned on SNLI.
 
 This will create the hans_predictions.txt file in ./mnli-6, which can then be evaluated using evaluate_heur_output.py from the HANS dataset.
 
